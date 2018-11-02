@@ -1,0 +1,33 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo Hello"
+        }
+    ]
+}
+// {
+//     // See https://go.microsoft.com/fwlink/?LinkId=733558
+//     // for the documentation about the tasks.json format
+//     "version": "2.0.0",
+//     "tasks": [{
+//         "taskName": "build",
+//         "command": "gcc",
+//         "args": [
+//             "-g",
+//             "${file}",
+//             "-o",
+//             "${fileDirname}/${fileBasenameNoExtension}.out"
+//         ],
+//         "type": "shell",
+//         "problemMatcher": []
+//     }]
+// }
+//调试（fn + F5）
+//下一步（fn + 10）
+//重启（shift+fn+F5）
+//继续（fn +F5）
